@@ -10,3 +10,9 @@ puts "Exercise 7"
 puts "----------"
 
 # Your code goes here ...
+
+@store1.errors.full_messages
+@store2.errors.full_messages
+@store4.errors.full_messages
+@store5.errors.full_messages
+@store6.errors.full_messages
