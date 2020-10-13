@@ -13,18 +13,24 @@ puts "----------"
   mens_apparel: false, 
   womens_apparel: true
   )
+puts @store4.errors.full_messages
+
 @store5 = Store.create(
   name: "Whistler",
   annual_revenue: 1900000, 
   mens_apparel: true, 
   womens_apparel: false
   )
+puts @store5.errors.full_messages
+
 @store6 = Store.create(
-  name: "Y",
+  name: "Yaletown",
   annual_revenue: 430000, 
   mens_apparel: true, 
   womens_apparel: true
   )
+
+puts @store6.errors.full_messages
 
 
 
